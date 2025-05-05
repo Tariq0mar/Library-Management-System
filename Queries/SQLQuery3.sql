@@ -1,3 +1,5 @@
+-- Borrowing Frequency using Window Functions: Rank borrowers based on borrowing frequency.
+
 SELECT 
     B.BorrowerID,
     B.FirstName,
