@@ -1,5 +1,5 @@
 IF NOT EXISTS (SELECT 1 FROM Books)
-	BEGIN
+BEGIN
 	INSERT INTO Books (Title, Author, ISBN, PublishedDate, Genre, ShelfLocation, CurrentStatus)
 	VALUES 
 	('The Hobbit', 'J.R.R. Tolkien', '9780261103344', '1937-09-21', 'Fantasy', 'A1', 'Available'),
